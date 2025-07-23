@@ -48,8 +48,10 @@ jspm_packages/
 
 # Uploads
 uploads/
-*.csv
-*.json
+
+# Input files (테스트 데이터는 제외하지 않음)
+# *.csv
+# *.json
 
 # Docker
 .dockerignore

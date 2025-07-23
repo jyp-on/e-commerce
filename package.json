@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce-accounting-system",
+  "version": "1.0.0",
+  "description": "이커머스 경영 경리 프로그램 - 풀스택 개발자 실무테스트",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "migrate": "node src/database/migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "csv-parser": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1",
+    "joi": "^17.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "keywords": ["accounting", "ecommerce", "finance", "api"],
+  "author": "풀스택 개발자",
+  "license": "MIT"
+} 
